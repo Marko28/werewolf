@@ -14,7 +14,7 @@ import java.util.*;
 public class Werewolf {
 
     public static void main(String[] args) {
-        String token = "NDYzOTcyNTk1ODIyMzYyNjI0.DoEOpg.xKnZbPIjyRhvgl-TsOsgejnkTuc";
+        String token = ""; // Put in your bot's token.
         DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
 
         api.addMessageCreateListener(Werewolf::onMessageCreate);
