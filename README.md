@@ -1,6 +1,7 @@
 # werewolf
 
 play One Night Ultimate Werewolf on Discord with three to seven people
+applications needed: IntelliJ IDEA and Discord
 
 1. Download all code from Github
 2. Open IntelliJ IDEA and open project werewolf
